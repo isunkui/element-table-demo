@@ -1,0 +1,3 @@
+export const LOADING_DONE = 'LOADING_DONE';
+export const LOADING_START = 'LOADING_START';
+export const FETCH_MOCK_DATAS = 'FETCH_MOCK_DATAS';
