@@ -1,8 +1,8 @@
 <template>
   <section class="demo-bg" v-loading="loading">
     <el-table :data="datas" boder style="width: 400px; margin: 0 auto;">
-      <el-table-column align="center" label="id"></el-table-column>
-      <el-table-column align="center" label="count"></el-table-column>
+      <el-table-column align="center" prop="id" label="id"></el-table-column>
+      <el-table-column align="center" prop="count" label="count"></el-table-column>
     </el-table>
   </section>
 </template>
